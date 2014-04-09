@@ -1,0 +1,45 @@
+.filter-panel {
+    background-color: #efefef;
+    border: 1px solid #aaa;
+    color: #333;
+}
+
+.filter-panel header {
+    padding: 1ex;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 1ex;
+    font-size: 11pt;
+    }
+
+.stackedboxes-side > .filter-panel-container {
+    position: absolute;
+    top: 0;
+    left: 2px;
+}
+
+.filter-list {
+    font-size: 8pt;
+    list-style-type: none;
+    padding: 1ex;
+    width: 145px;
+    margin: 0;
+}
+
+.filter-list li:not(.SPACER) {
+    border: 1px dashed #aaa;
+    padding: 1ex;
+    border-radius: 1ex;
+    position: relative;
+    margin-bottom: .5ex;
+}
+
+.filter-list label {
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+}
+
+li.SPACER {
+    height: 2em;
+}

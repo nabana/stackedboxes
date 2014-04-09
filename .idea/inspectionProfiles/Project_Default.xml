@@ -1,0 +1,26 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0" is_locked="false">
+    <option name="myName" value="Project Default" />
+    <option name="myLocal" value="false" />
+    <inspection_tool class="Annotator" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="CheckEmptyScriptTag" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="JSLintValidation" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="useJSHint" value="false" />
+      <option name="predefines" value="top, window" />
+      <option name="assumeConsole" value="true" />
+      <option name="assumeBrowser" value="true" />
+      <option name="tolerateUnfilteredForIn" value="true" />
+      <option name="tolerateIncrementAndDecrement" value="true" />
+      <option name="tolerateInaxactComparison" value="true" />
+      <option name="tolerateManyVarStatements" value="true" />
+      <option name="tolerateDanglingUnderscoreIn" value="true" />
+      <option name="tolerateMessyWhiteSpace" value="true" />
+      <option name="assumeJQuery" value="true" />
+      <option name="tolerateBoss" value="true" />
+      <option name="tolerateCurly" value="true" />
+      <option name="tolerateEqNull" value="true" />
+    </inspection_tool>
+    <inspection_tool class="JSUnfilteredForInLoop" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="JSUnusedGlobalSymbols" enabled="false" level="WARNING" enabled_by_default="false" />
+  </profile>
+</component>

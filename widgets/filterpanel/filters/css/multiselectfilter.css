@@ -1,0 +1,26 @@
+.multiselect-filter label {
+    display: inline-block;
+    padding-top: 2px;
+    vertical-align: top;
+}
+
+.multiselect-filter .ui-multiselect {
+    display: block;
+    max-width: 100%;
+}
+
+.multiselectfilter .ui-multiselect-header {
+    font-size: 9pt;
+}
+
+.multiselectfilter.ui-multiselect-menu {
+    font-size: 9pt;
+}
+
+
+.multiselectfilter .ui-multiselect-checkboxes li label {
+    max-width: 100%;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

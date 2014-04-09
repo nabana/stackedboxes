@@ -1,0 +1,26 @@
+.actions-menu-actions {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 9pt;
+    background-color: #fff;
+    border: 1px solid #aaa;
+    list-style: none;
+    padding: .75ex 0;
+    box-shadow: 0 0 10px rgba( 0, 0, 0, .4);
+}
+
+.actions-menu-actions > li {
+    padding: 1.5ex 1.25ex;
+    color: #333;
+    cursor: pointer;
+}
+
+.actions-menu-actions > li:not(.inactive):hover {
+    background-color: #eee;
+}
+
+.actions-menu-actions > li.inactive {
+    color: #999;
+    cursor: default;
+}

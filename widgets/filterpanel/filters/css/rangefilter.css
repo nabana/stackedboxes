@@ -1,0 +1,35 @@
+.range-filter {
+    text-align: center;
+}
+
+.range-filter > .ui-slider {
+    margin: 1.6ex 1ex 0.5ex 1ex;
+}
+
+.range-filter .ui-slider-handle {
+    cursor: pointer;
+}
+
+.range-filter input {
+    width: 7ex;
+    font-size: 7pt;
+    border: 1px solid #aaa;
+    top: 2ex;
+}
+
+.range-filter input:not(:hover) {
+    border: 1px solid transparent;
+    background: transparent;
+}
+
+
+.range-filter input.min-val {
+    position: absolute;
+    left: 1ex;
+}
+
+.range-filter input.max-val {
+    position: absolute;
+    right: 1ex;
+    text-align: right;
+}
