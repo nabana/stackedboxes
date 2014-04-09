@@ -1,0 +1,4 @@
+stackedboxes
+============
+
+Stackedboxes widget
