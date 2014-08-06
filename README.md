@@ -1,7 +1,7 @@
 stackedboxes
 ============
 
-Stackedboxes widget
+A scalable data-point visualization widget
 
 
 Try it out
