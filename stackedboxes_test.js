@@ -320,7 +320,7 @@ require([
 
             });
 
-            for ( var i = 1; i <= 8; i++ ) {
+            for ( var i = 1; i <= 12; i++ ) {
 
                 name = 'Project' + i;
 
